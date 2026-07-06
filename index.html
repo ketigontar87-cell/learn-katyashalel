@@ -8,8 +8,8 @@
 <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Instrument+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Ephesis&display=swap" rel="stylesheet">
 <style>
 :root{
-  --red:#BE2A21;
-  --red-deep:#9E1F18;
+  --red:#C4342E;
+  --red-deep:#A32420;
   --cream:#F4EDE1;
   --cream-warm:#EFE5D3;
   --ink:#1C1714;
@@ -42,9 +42,9 @@ nav a:hover{color:var(--red)}
 /* ===== hero ===== */
 .hero{position:relative;overflow:hidden}
 .hero-photos{display:grid;grid-template-columns:1.2fr 1fr;gap:2px;height:46vh;min-height:320px}
-.ph{background:linear-gradient(160deg,#D8442F 0%,var(--red-deep) 70%);position:relative}
-.ph.b{background:linear-gradient(200deg,#B9B2A6 0%,#8E877B 80%)}
-.ph::after{content:'';position:absolute;inset:0;background:radial-gradient(ellipse at 30% 20%,rgba(255,255,255,.18),transparent 55%)}
+.ph{background:url('https://katyashalel.com/images/hero-portrait.jpg') center 20%/cover;position:relative}
+.ph.b{background:url('https://katyashalel.com/images/about-portrait.jpg') center 15%/cover;filter:grayscale(65%) contrast(1.04)}
+.ph::after{content:'';position:absolute;inset:0;background:linear-gradient(rgba(28,23,20,.28),transparent 40%,rgba(28,23,20,.15))}
 .ph-note{position:absolute;top:18px;left:18px;color:var(--cream);font-size:9.5px;letter-spacing:.2em;text-transform:uppercase;font-weight:600;max-width:200px;line-height:1.7;z-index:2}
 .ph-note.right{left:auto;right:18px;top:auto;bottom:18px;text-align:right}
 .hero-script{position:absolute;left:0;right:0;bottom:-6vw;text-align:center;z-index:3;pointer-events:none}
@@ -73,10 +73,10 @@ h1 .script{font-size:1.15em;color:var(--red);display:block;margin-top:-.12em}
 .pol:nth-child(2){transform:rotate(1.8deg)}
 .pol:nth-child(3){transform:rotate(2.2deg)}
 .pol:nth-child(4){transform:rotate(-1.6deg)}
-.pol-img{height:120px;margin-bottom:14px;position:relative;background:linear-gradient(150deg,#E0D6C4,#C9BBA1)}
+.pol-img{height:120px;margin-bottom:14px;position:relative;background:url('https://katyashalel.com/images/direction-decision.jpg') center/cover;filter:grayscale(50%)}
 .pol:nth-child(2) .pol-img{background:linear-gradient(150deg,#D8442F,#9E1F18)}
 .pol:nth-child(3) .pol-img{background:linear-gradient(150deg,#3A322B,#1C1714)}
-.pol:nth-child(4) .pol-img{background:linear-gradient(150deg,#B9B2A6,#7E7669)}
+.pol:nth-child(4) .pol-img{background:url('https://katyashalel.com/images/direction-legibility.jpg') center/cover;filter:grayscale(50%)}
 .pol-num{position:absolute;top:10px;left:12px;font-family:'Instrument Serif',serif;font-style:italic;font-size:30px;color:rgba(255,255,255,.9)}
 .pol h3{font-family:'Instrument Serif',serif;font-weight:400;font-size:20px;line-height:1.12;margin-bottom:7px}
 .pol p{font-size:13px;color:#5A5148;line-height:1.55}
